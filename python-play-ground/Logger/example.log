@@ -1,0 +1,4 @@
+2025-01-10 11:37:26,879 - exampleLogger - INFO - LoggerSetup.py:12 - This is an info message
+2025-01-10 11:37:26,880 - exampleLogger - WARNING - LoggerSetup.py:13 - This is a warning message
+2025-01-10 11:37:26,880 - exampleLogger - ERROR - LoggerSetup.py:14 - This is an error message
+2025-01-10 11:37:26,880 - exampleLogger - CRITICAL - LoggerSetup.py:15 - This is a critical message
