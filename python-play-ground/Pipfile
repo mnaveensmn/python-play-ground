@@ -4,11 +4,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
-requests = "*"
-flask = ">=2.0.0"
-splunk-handler = "==3.0.0"
-splunk-log-handler = "==1.0.0"
-splunk-hec-handler = "==1.2.0"
+requests = "==2.32.3"
+pypdf = "==5.3.0"
 
 [dev-packages]
 pytest = "*"
