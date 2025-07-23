@@ -2,3 +2,13 @@
 2025-01-10 11:37:26,880 - exampleLogger - WARNING - LoggerSetup.py:13 - This is a warning message
 2025-01-10 11:37:26,880 - exampleLogger - ERROR - LoggerSetup.py:14 - This is an error message
 2025-01-10 11:37:26,880 - exampleLogger - CRITICAL - LoggerSetup.py:15 - This is a critical message
+2025-01-10 12:36:31,223 - __main__ - DEBUG - LoggerSetup.py:11 - This is a debug message
+2025-01-10 12:36:31,224 - __main__ - INFO - LoggerSetup.py:12 - This is an info message
+2025-01-10 12:36:31,224 - __main__ - WARNING - LoggerSetup.py:13 - This is a warning message
+2025-01-10 12:36:31,224 - __main__ - ERROR - LoggerSetup.py:14 - This is an error message
+2025-01-10 12:36:31,224 - __main__ - CRITICAL - LoggerSetup.py:15 - This is a critical message
+2025-01-10 12:36:56,798 - __main__ - DEBUG - LoggerSetup.py:11 - This is a debug message
+2025-01-10 12:36:56,798 - __main__ - INFO - LoggerSetup.py:12 - This is an info message
+2025-01-10 12:36:56,798 - __main__ - WARNING - LoggerSetup.py:13 - This is a warning message
+2025-01-10 12:36:56,798 - __main__ - ERROR - LoggerSetup.py:14 - This is an error message
+2025-01-10 12:36:56,798 - __main__ - CRITICAL - LoggerSetup.py:15 - This is a critical message
