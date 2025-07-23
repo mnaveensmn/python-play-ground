@@ -4,46 +4,6 @@ import time
 from datetime import datetime
 import threading
 
-# Base URL for the endpoint
-BASE_URL = "https://leads-shared-service-dev.css.rxweb-dev.com/ping"
-#BASE_URL = "https://leads-shared-service-perf.css.rxweb-dev.com/ping"
-#BASE_URL = "http://localhost:5055/v1/exhibitors/test"
-#BASE_URL = 'https://qr-manager-service-perf.css.rxweb-dev.com/v1/exhibitors/test'
-#QUERY_PARAM = 'includePublishedProductDocuments=true'
-#BASE_URL = 'https://qr-manager-service-perf.css.rxweb-dev.com'
-#BASE_URL = "http://localhost:5047/v1/exhibitors/test"
-
-# List of exhibitor IDs
-EXHIBITOR_IDS = [
-    "exh-perf-test-AUTOM23-42",
-    "exh-perf-test-AUTOM23-37",
-    "exh-perf-test-AUTOM23-30",
-    "exh-perf-test-AUTOM23-34",
-    "exh-perf-test-AUTOM23-29",
-    "exh-perf-test-AUTOM23-32",
-    "exh-perf-test-AUTOM23-44",
-    "exh-perf-test-AUTOM23-35",
-    "exh-perf-test-AUTOM23-28",
-    "exh-perf-test-AUTOM23-41",
-    "exh-perf-test-AUTOM23-45",
-    "exh-perf-test-AUTOM23-33",
-    "exh-perf-test-AUTOM23-40",
-    "exh-perf-test-AUTOM23-38",
-    "exh-perf-test-AUTOM23-27",
-    "exh-perf-test-AUTOM23-43",
-    "exh-perf-test-AUTOM23-39",
-    "exh-perf-test-AUTOM23-46",
-    "exh-perf-test-AUTOM23-47",
-    "exh-perf-test-AUTOM23-26",
-    "exh-perf-test-AUTOM23-36",
-    "exh-perf-test-AUTOM23-48",
-    "exh-perf-test-AUTOM23-25",
-    "exh-perf-test-AUTOM23-31"
-]
-
-EXHIBITOR_IDS_1 = [
-    "exh-perf-test-AUTOM23-42"
-]
 
 def fetch_exhibitor_data(exhibitor_id, thread_id):
     #url = f"{BASE_URL}/{exhibitor_id}?{QUERY_PARAM}"
